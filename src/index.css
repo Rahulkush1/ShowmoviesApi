@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+
+  font-family: 'Montserrat', sans-serif;
+}
+.card{
+  width: 20rem;
+  
+  margin-left: 4rem !important;
+}
+.card-img-top{
+  /* width: 30rem; */
+  height: 20rem;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.summary{
+  width: 80% !important;
+  margin-top: 10rem;
+  margin-left: 30%;
+  
+}
+
+.Header_name{
+  background-color: rgb(117, 245, 245);
+  padding: 3% 7%;
+  font-family: 'Montserrat', sans-serif;
+}
+.card-header{
+  font-size: 2.5rem !important;
+  text-align: center;
+  color: darkorange;
+}
+span{
+  font-weight: bold;
 }
